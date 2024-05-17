@@ -1,0 +1,66 @@
+<html lang="en">
+<head>  
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Index Page</title>  
+<link rel="stylesheet" href="style,css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome CSS -->   
+</head>
+<body>
+    <section class="header">       
+         <video autoplay loop class="video-background" muted plays-inline>       
+            <source src="ima" type="video/mp4">        
+        </video>        
+        <nav>            
+            <a href="index.html"><img src="images/warner-bros-logo-.png"></a>           
+             <div class="nav-links" id="navLinks">                
+                <i class="fa fa-times" onclick="hideMenu()"></i>               
+                 <ul>                  
+                    <li><a href="index.html">Home</a></li>                  
+                    <li><a href="Movies.html">Movies</a></li>                  
+                    <li><a href="TvShows.html">Tv Shows</a></li>                 
+                    <li><a href="Games&Apps.html">Games & Apps</a></li>                  
+                    <li><a href="Collection.html">Collection</a></li>                  
+                    <li><a href="Feedback.html">Feedback</a></li>               
+                 </ul> 
+             </div>            
+<i class="fa fa-bars"  onclick="shoMenu()"></i>      
+  </nav>      
+   <div class="content">          
+    <p>Welcome to our</p>           
+
+    
+     <h1>Global <br> Media Entertainment Company</h1>          
+      <p>Your ultimate destination for all things film and entertainment. Dive into our vast collection of movies, series, and exclusive.<br>Enjoy your journey in the world of cinema.</p>
+    </div>
+</section>
+<section>
+<footer>
+    <div class="container">
+        <ul class="social-icons">
+            <li><a href="https://www.facebook.com/warnerbrosent/" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://twitter.com/Warnerbros/" class="twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/warnerbrosentertainment/" class=""><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/user/WarnerBrosPictures/" class="youtube"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/warner-bros--entertainment" class="linkedin"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2024 Warner Bros. Entertainment Inc. All Rights Reserved.</p>
+        <p>Terms of Use|Privacy Policy</p>
+    </div>
+</footer>
+</section>
+<!--------JavaScript for Toggle Menu------->    
+<script>
+       var navLinks = document.getElementById("navLinks") ;               
+        function shoMenu(){          
+             navLinks.style.right ="0";      
+             }       
+             function hideMenu(){           
+                navLinks.style.right ="-200px";      
+                 }
+</script>
+</body>
+</html>
