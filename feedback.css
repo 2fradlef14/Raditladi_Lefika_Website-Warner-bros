@@ -86,7 +86,7 @@ nav .fa{
  
   }
   
-.container {
+.first-container {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
@@ -123,19 +123,24 @@ label{
     height: 40px;
     width: 600px;
 }
- .form-group .submit-link {
-    display: inline-block;
-    text-decoration:  none;
-    padding: 10px 20px;
+
+a.submit-button,
+a.return-button {
+    display: block;
+    text-align: left;
+    background-color: #555;
     color: #fff;
-    background-color: rgb(122, 108, 31);
+    padding: 10px 20px;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
- }
+    text-decoration: none;
+    font-size: 18px;
+    width:25%;
+    
+}
 
-.form-group .submit-link:hover{
+a.submit-button:hover,
+a.return-button:hover {
     background-color: gold;
 }
 

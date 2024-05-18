@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+
+/* General styling for both pages */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #080808;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+.form-container,
+.thank-you-container {
+    background-color: gold;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+    margin-top: 10%;
+    margin-bottom: 30%;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+a.submit-button,
+a.return-button {
+    display: block;
+    text-align: center;
+    background-color: #555;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    width: auto;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+a.submit-button:hover,
+a.return-button:hover {
+    background-color: #333;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    a.submit-button,
+    a.return-button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .form-container,
+    .thank-you-container {
+        padding: 15px;
+    }
+
+    .logo {
+        max-width: 80px;
+    }
+}
+
+@media (max-width: 400px) {
+    a.submit-button,
+    a.return-button {
+        padding: 4px 8px;
+        font-size: 10px;
+    }
+
+    .form-container,
+    .thank-you-container {
+        padding: 10px;
+    }
+
+    .logo {
+        max-width: 60px;
+    }
+}
+
+    </style>
+    <div class="thank-you-container">
+        <h1>Thank You for Your Feedback!</h1>
+        <p style="color: #fff;">We appreciate your feedback and will use it to improve our services.</p>
+        <a href="index.html" class="return-button">Go back to Home Page </a>
+    </div>
+</body>
+</html>
